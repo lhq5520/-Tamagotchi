@@ -1,6 +1,7 @@
 # Tamagotchi Game (GUI)
 
 This project is a hybrid implementation of the classic Tamagotchi game, offering both Command Line Interface (CLI) and Graphical User Interface (GUI) modes. Designed to provide an interactive experience, the game combines strategic management of your virtual pet with user-friendly interfaces.
+![image](res/demo.png)
 
 ## Project Structure
 
