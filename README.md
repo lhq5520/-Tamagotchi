@@ -57,7 +57,7 @@ Contains test cases to ensure the reliability of the game's logic and interactio
     java -jar res/Tamagotchi.jar
 
 ## Testing
-    ```bash
+    ```java
     javac -d out -cp src:test test/**/*.java
     java -cp out org.junit.runner.JUnitCore tamagochi.PetModelImplTest.java
 
