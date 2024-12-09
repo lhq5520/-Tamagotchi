@@ -3,6 +3,9 @@
 This project is a hybrid implementation of the classic Tamagotchi game, offering both Command Line Interface (CLI) and Graphical User Interface (GUI) modes. Designed to provide an interactive experience, the game combines strategic management of your virtual pet with user-friendly interfaces.
 ![image](res/demo.png)
 
+
+![image](res/img/default.gif)
+
 ## Project Structure
 
 ### `src/`
@@ -58,9 +61,12 @@ Contains test cases to ensure the reliability of the game's logic and interactio
     java -jar res/Tamagotchi.jar
 
 ## Testing
-    ```java
-    javac -d out -cp src:test test/**/*.java
-    java -cp out org.junit.runner.JUnitCore tamagochi.PetModelImplTest.java
+
+1. Compile and run unit tests to validate the game's functionality:
+   ```java
+   javac -d out -cp src:test test/**/*.java
+   java -cp out org.junit.runner.JUnitCore tamagochi.PetModelImplTest
+
 
 ## Contributions
     Contributions are welcome! Please fork the repository and submit a pull request.
